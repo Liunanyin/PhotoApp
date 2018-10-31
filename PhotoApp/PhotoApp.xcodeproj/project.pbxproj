@@ -12,6 +12,7 @@
 		8D9F142E218A68C1003423C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F142C218A68C1003423C8 /* Main.storyboard */; };
 		8D9F1430218A68C3003423C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F142F218A68C3003423C8 /* Assets.xcassets */; };
 		8D9F1433218A68C3003423C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F1431218A68C3003423C8 /* LaunchScreen.storyboard */; };
+		8D9F143B218A6A66003423C8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F143A218A6A66003423C8 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8D9F142F218A68C3003423C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D9F1432218A68C3003423C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D9F1434218A68C3003423C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D9F143A218A6A66003423C8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8D9F1428218A68C1003423C8 /* AppDelegate.swift */,
 				8D9F142A218A68C1003423C8 /* ViewController.swift */,
 				8D9F142C218A68C1003423C8 /* Main.storyboard */,
+				8D9F143A218A6A66003423C8 /* CollectionViewCell.swift */,
 				8D9F142F218A68C3003423C8 /* Assets.xcassets */,
 				8D9F1431218A68C3003423C8 /* LaunchScreen.storyboard */,
 				8D9F1434218A68C3003423C8 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9F142B218A68C1003423C8 /* ViewController.swift in Sources */,
+				8D9F143B218A6A66003423C8 /* CollectionViewCell.swift in Sources */,
 				8D9F1429218A68C1003423C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
