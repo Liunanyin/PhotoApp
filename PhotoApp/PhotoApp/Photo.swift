@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  Photo.swift
 //  PhotoApp
 //
 //  Created by LIUNAN YIN on 2018-10-31.
@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell{
-    @IBOutlet weak var myImage: UIImageView!
+struct Photo {
+    var name: String
+    var date: Int
+    var image: UIImage
 }

@@ -42,6 +42,9 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <outlet property="myImage" destination="f9t-ak-SFR" id="xdD-fF-wyg"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
