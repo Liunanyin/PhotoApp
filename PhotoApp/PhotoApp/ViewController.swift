@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
-    @IBOutlet weak var collectionView: UICollectionView!
+   
+
+    @IBOutlet weak var collectionview: UICollectionView!
     
     let reuseIdentifier = "cell"
     var array = [Photo]()
@@ -23,8 +25,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! CollectionViewCell
         
         cell.myImage.image = array[indexPath.item].image
-       
-    
+        
         cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.cornerRadius = 8
         cell.layer.borderWidth = 0
@@ -32,6 +33,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         cell.myImage.layer.borderColor = UIColor.white.cgColor
         cell.myImage.layer.borderWidth = 1
         cell.myImage.layer.cornerRadius = 8
+
         return cell
     }
     
@@ -42,8 +44,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.dataSource = self
-        collectionView.delegate = self
+        collectionview.dataSource = self
+        collectionview.delegate = self
         
         array.append(Photo(name: "sunrise", date: 20161007, image: #imageLiteral(resourceName: "sunrise")))
         array.append(Photo(name: "sunset", date: 20160819, image: #imageLiteral(resourceName: "sunset")))
